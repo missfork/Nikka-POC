@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    height: 4rem;
+    padding-inline: 1rem;
+    color: white;
+    border-bottom: 1px solid rgb(35, 32, 32);
+    -webkit-box-shadow: 0px 0px 10px 5px #4545455e;
+    -moz-box-shadow: 0px 0px 10px 5px #4545455e;
+    box-shadow: 0px 0px 10px 5px #4545455e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left{
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-inline: 1rem;
+        span{
+            color: red;
+        }
+    }
+    .right{
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #firstBtn{
+            border-right: 1px solid white;
+        }
+    }
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding-inline:1rem ;
+
+}
