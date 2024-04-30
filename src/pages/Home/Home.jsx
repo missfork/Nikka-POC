@@ -11,8 +11,13 @@ function Home() {
           Your enterprise AI platform that delivers on business outcomes –
           obsessively{" "}
         </p>{" "}
-        <p className={style.summary}>Ditch the treadmill. Ramp up to peak productivity</p>
-        <button className={style.loadMore}>learn more</button>
+        <p className={style.summary}>
+          Ditch the treadmill. Ramp up to peak productivity
+        </p>
+        <div className={style.loadMore}>
+          learn more{" "}
+          
+        </div>
       </div>
     </div>
   );
